@@ -1,3 +1,5 @@
+
+// intro
 let firstName = "Muhammad";
 let lastName = "Bilal";
 let age = 25;
