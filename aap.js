@@ -1,3 +1,14 @@
+let firstName = "Muhammad";
+let lastName = "Bilal";
+let age = 25;
+let fullName = firstName + " " + lastName;
+
+alert (firstName)
+alert (lastName)
+alert (age)
+alert (fullName)
+
+
 // 1
 
 alert("error please enter a valid password")
@@ -16,12 +27,12 @@ let abc = "Hello World!\nThis is my string";
 console .log(abc);
 
 // 4
-var thanx = "Thanks for your input!"
+let thanx = "Thanks for your input!"
 alert(thanx);
 
 
 // 5
-var anx = " Thanks   input! "
+let anx = " Thanks   input! "
 alert(anx);
 
 // 6
@@ -40,5 +51,6 @@ alert(book);
 let boder = " ▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬"
 alert(boder);
 
+// 10
 
 
