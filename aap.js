@@ -1,58 +1,65 @@
+// 1
 
-// intro
+function box() {
+    alert("error please enter a valid password");
+  }
+
+// 2
+ function linebreak(){           
+    alert("Hello World!\nThis is my string");
+
+ }
+  
+//  3
+ function messages(){           
+    alert("Welcome to js land...");
+    alert("Happy coding!\nParevent ");
+ }
+ 
+// 4
+ let abc = "Hello... I can run js throung my web browser console";
+
+ console .log(abc);
+
+// 5
+ // intro
 let firstName = "Muhammad";
 let lastName = "Bilal";
 let age = 25;
 let fullName = firstName + " " + lastName;
 
-alert (firstName)
-alert (lastName)
-alert (age)
-alert (fullName)
-
-
-// 1
-
-alert("error please enter a valid password")
-
-// 2
-
-let str = "Hello World!\nThis is my string";
-
-alert(str);
-
-// 3
-
-
-let abc = "Hello World!\nThis is my string";
-
-console .log(abc);
-
-// 4
-let thanx = "Thanks for your input!"
-alert(thanx);
-
-
-// 5
-let anx = " Thanks   input! "
-alert(anx);
+alert (firstName);
+alert (lastName);
+alert (age);
+alert (fullName);
 
 // 6
+let message = "Hello World ";
+alert (message)
+
+
+
+// 8
 let br = " PLZZA\n PLZZ\n PLLZ\n PLL\n PL\n P "
 alert(br);
 
-// 7
-let email = " e.g. example@example.com "
-alert(email);
-
-// 8
-let book = " A smarter way to learn JavaScript"
-alert(book);
-
 // 9
-let boder = " ▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬"
-alert(boder);
-
-// 10
+let email = "  example@example.com "
+ alert("my email address is " + email);
 
 
+//  12
+  let boder = " ▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬"
+ alert(boder);
+
+
+// 7
+// document.write(Date());
+
+
+// 11
+
+
+ // 10
+ let book = "  “A smarter way to learn JavaScript” "
+ alert(book);
