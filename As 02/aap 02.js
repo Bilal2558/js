@@ -23,7 +23,8 @@ alert(display);
 
 // 9
 // email
-
+let email= " bilalattaribilalattari652@gmail.com"
+alert(email);
 
 //  12
   let boder = " ▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬"
@@ -31,7 +32,7 @@ alert(display);
 
 
 // 7
-// document.write(Date());
+document.write("Yah! I can Write HTML content through javascript");
 
 
 // 11
