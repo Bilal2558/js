@@ -43,13 +43,13 @@ document.write("<h3>...........3</h3>");
 
 // 4
 document.write("<h3>...........4 </h3>");
-var num = prompt("Enter Number", "0") //prompt user to enter the number
+var num = prompt("Enter Number", "5") //prompt user to enter the number
 var num = parseInt(num); //parse the num to number
 var i = 0;
 document.write('<table border="1" cellspacing="0">');
-for (i = 1; i <= 10; i++) {
-  document.write("<tr><td>" + num + " x " + i + " = " + num * i + "</td></tr>");
-}
+  for (i = 1; i <= 10; i++) {
+    document.write( "<tr><td>" + num + " x " + i + " = " + num * i + "</td></tr>");
+  }
 
  // 5
 document.write("<h3>...........5</h3>");
@@ -58,14 +58,14 @@ var subjects2 =prompt("subjects2", "English ");
 var subjects3 =prompt("subjects3", "Math ");
 
 var number1 =prompt("number1", "50 ");
-var number2 =prompt("number12", "50 ");
+var number2 =prompt("number2", "50 ");
 var number3 =prompt("number3", "70 ");
 
 document.write("...........",subjects1, 100, "   ", number1, "  ", number1/100*100 ,"% ", "<br>")
 document.write("...........",subjects2, 100, "   ", number2, "  ", number2/100*100 ,"% ", "<br>")
 document.write("...........",subjects3, 100, "   ", number3, "  ", number3/100*100 ,"% ", "<br>")
-
-document.write("...........","                "   , "300", "   "   , number1+number2+number3  ,"  ",( number1+number2+number3)/100*100, "<br>")
+var total= number1+number2+number3;
+document.write("...........","                "   , "300", "   "   , number1+number2+number3  ,"  ", total/300*100, "<br>")
 
 
 
