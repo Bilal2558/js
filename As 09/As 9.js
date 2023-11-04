@@ -49,7 +49,6 @@ document.write("<br>");
 document.write("...........", --a);
 document.write("<br>");
 
-
 //                            0   - 0  =0
 document.write("...........", --a - --b);
 document.write("<br>");
@@ -66,9 +65,6 @@ document.write("<br>");document.write("<br>");document.write("<br>");
  var greet =prompt("greet");
 
  console.log(yourName+ greet)
-
-
-
 
 document.write("...........", "As 06.03");
 document.write("<br>");
