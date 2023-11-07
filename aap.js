@@ -23,4 +23,13 @@ function box() {
 
 
 
- 
+ // pets use to add nuber start
+var pets = [1,2, 5, 5,8];
+pets[0] = "dog";
+ pets[1] = "cat";
+ pets[2] = "bird";
+ document.write(pets, "<br>");
+
+//  pets use to add nuber end
+ pets.push("fish", "ferret");
+ document.write(pets+"<br>");
