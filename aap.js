@@ -11,3 +11,5 @@ pets[0] = "dog";
  document.write("<h3>........... Pets use to add nuber end<h3>");
  pets.push("fish", "ferret","<br>");
  document.write("=====>",pets,"<br>");
+
+ 
